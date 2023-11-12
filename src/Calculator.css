@@ -1,0 +1,35 @@
+
+.scientific-calculator {
+    width: 500px;
+    margin: 50px auto;
+    background-color: rgb(9, 45, 45);
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .display {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
